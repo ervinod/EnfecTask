@@ -6,9 +6,9 @@ Following components are used in this project:
 - [MVVM]
 - [DataBinding]
 - [LiveData]
-- [Retrifit]
+- [Retrofit]
 
-# Application Screenshots(Android)
+# Application Screenshot
 
 <img src="https://github.com/ervinod/EnfecTask/blob/master/screenshot/screenshot1.jpg" width="300">
 
