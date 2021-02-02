@@ -5,8 +5,6 @@ import android.app.Application;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
-
-
 import com.ervinod.enfectask.models.Post;
 import com.ervinod.enfectask.models.User;
 import com.ervinod.enfectask.repository.UserRepository;

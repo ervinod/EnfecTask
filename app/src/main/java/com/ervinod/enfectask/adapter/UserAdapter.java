@@ -41,6 +41,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         }
     }
 
+    //set user list
     public void setUserList(ArrayList<User> users) {
         this.userArrayList = users;
         notifyDataSetChanged();
@@ -62,6 +63,7 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
                 public void onClick(View v) {
                     int position = getAdapterPosition();
                     if (listener != null && position != RecyclerView.NO_POSITION) {
+                        //handling user click
                         listener.onItemClick(getCurrentItemAt(position));
                     }
                 }
